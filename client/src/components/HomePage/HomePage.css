@@ -1,0 +1,15 @@
+.Upper-home {
+  margin: 20px;
+  display: flex;
+  padding: 30px;
+}
+.Upper-home h2 {
+  position: relative;
+  font-size: 36px;
+}
+@media only screen and (max-width: 1016px) {
+  .Upper-home {
+    flex-direction: column;
+    text-align: center;
+  }
+}

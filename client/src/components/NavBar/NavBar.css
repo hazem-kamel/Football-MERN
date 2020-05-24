@@ -1,0 +1,43 @@
+ul {
+  display: flex;
+  color: rgb(68, 66, 66);
+  font-size: 20px;
+  margin-top: 0px;
+  list-style-type: none;
+  position: relative;
+}
+li {
+  margin: 40px;
+}
+a {
+  color: inherit;
+}
+li:hover {
+  cursor: pointer;
+  color: green;
+}
+.leagues-drop {
+  display: none;
+}
+.signup-button {
+  background-color: green;
+  border: green;
+  color: white;
+  font-size: 20px;
+  width: 120px;
+  padding: 10px;
+  margin-left: 40px;
+  margin: 30px;
+}
+.signup-button:hover {
+  cursor: pointer;
+  background-color: rgba(220, 20, 37, 0.842);
+}
+.signup-button {
+  position: absolute;
+  right: 30px;
+}
+.signin {
+  position: absolute;
+  right: 200px;
+}

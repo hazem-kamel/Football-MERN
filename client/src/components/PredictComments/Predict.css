@@ -1,0 +1,58 @@
+.comments-section {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin: auto;
+}
+
+.comment-button {
+  margin: 5px;
+  border: 1px bold;
+  border-radius: 20px;
+  width: 90px;
+  padding: 5px;
+}
+.input-comment {
+  width: 280px;
+}
+.comment {
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+  border-radius: 10px;
+  padding: 5px;
+  width: 20%;
+  height: 90px;
+  margin: auto;
+  margin-top: 10px;
+}
+.predicted {
+  position: relative;
+  bottom: 30px;
+  right: 10px;
+  text-align: right;
+  font-weight: bold;
+}
+.name {
+  position: relative;
+  text-align: left;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
+}
+.comment-created {
+  position: relative;
+  bottom: 30px;
+}
+@media (max-width: 1016px) {
+  .comment {
+    height: 120px;
+    width: 40%;
+  }
+
+  .name-div {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+  }
+}

@@ -1,0 +1,52 @@
+.register-form {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  margin: auto;
+}
+.left-register {
+  padding: 30px;
+}
+.register-left {
+  margin: 60px;
+}
+.right-register {
+  text-align: center;
+  padding: 10px;
+}
+.register-right {
+  margin: 40px;
+}
+.register-right h3 {
+  text-align: center;
+}
+.register-right label {
+}
+.register-right input {
+  font-family: inherit !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  border-radius: 5px;
+  outline: none !important;
+  margin-top: 5px;
+  margin-bottom: 30px !important;
+  padding-left: 5px !important;
+  width: 260px;
+}
+.register-right button {
+  width: 260px;
+  cursor: pointer;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1016px) {
+  .register-form {
+    flex-direction: column;
+    width: 370px;
+    font-size: 15px;
+  }
+  .register-right input {
+    width: 90% !important;
+  }
+}

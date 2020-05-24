@@ -1,0 +1,63 @@
+.signin-form {
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+}
+@media (max-width: 1016px) {
+  .signin-form {
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+  }
+  .right-signin {
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+  .right-info {
+    text-align: center;
+    justify-content: center;
+  }
+  #email {
+    width: 150%;
+  }
+  #password {
+    width: 150%;
+  }
+  .submit-button {
+    width: 180px !important;
+  }
+}
+.left-signin {
+  padding: 30px;
+}
+.left-login {
+  margin: 60px;
+}
+.right-signin {
+}
+.right-info {
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.right-info input {
+  font-family: inherit !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  border-radius: 5px;
+  outline: none !important;
+  margin-top: 5px;
+  margin-bottom: 30px !important;
+  padding-left: 5px !important;
+  width: 260px;
+}
+.submit-button {
+  width: 260px;
+  cursor: pointer;
+  height: 30px;
+  margin-bottom: 20px;
+}

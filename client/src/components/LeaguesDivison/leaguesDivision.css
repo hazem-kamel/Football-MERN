@@ -1,0 +1,57 @@
+.leagues-division {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+.leagues-division h2 {
+  font-size: 15px;
+  max-width: 900px;
+  margin: auto;
+}
+.leagues-division img {
+  max-width: 200px;
+  height: 200px;
+}
+
+.leauges-cards {
+  display: flex;
+  justify-content: center;
+}
+.leauges-cards {
+  color: inherit;
+}
+.leauges-cards div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 10px;
+  margin: 5px;
+}
+.leauges-cards a {
+  color: inherit;
+}
+.leauges-cards button {
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgb(22, 109, 0);
+  width: 120px;
+  padding: 10px;
+}
+@media only screen and (max-width: 1016px) {
+  .leauges-cards {
+    flex-direction: column;
+  }
+  .leages-division img {
+    width: 120px;
+  }
+  .leauges-cards div {
+    width: 300px;
+    margin: auto;
+  }
+  .leagues-division h2 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}

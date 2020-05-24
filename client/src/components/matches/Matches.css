@@ -1,0 +1,116 @@
+.matches {
+  margin: auto;
+  height: 600px;
+  overflow-y: scroll;
+}
+.nav-dates {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  border: 5px bold black;
+}
+.nav-dates button {
+  width: 93px;
+  font: bold;
+  font-size: 11px;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 5px;
+  border: 30px bold black;
+}
+.matches-cards {
+  background-color: rgb(237, 237, 237);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 130px;
+  width: 650px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.teams {
+  font-size: large;
+  font-weight: bold;
+}
+.match-info {
+  height: 100%;
+}
+.matches-cards p {
+  display: inline-block;
+}
+.matches-cards .team-one {
+  position: relative;
+  float: left;
+}
+.matches-cards .team-two {
+  float: right;
+}
+.matches-cards .status {
+  border-radius: 12px;
+  border-color: rgb(40, 8, 70);
+  width: 120px;
+  padding: 5px;
+  background-color: greenyellow;
+  text-align: center;
+  height: 40px;
+  position: relative;
+  margin: 0px;
+  bottom: 45px;
+  left: 260px;
+}
+.predict {
+  width: 120px;
+  height: 30px;
+  position: relative;
+  bottom: 55px;
+  left: 265px;
+  border: 1px bold solid;
+  border-radius: 20px;
+  margin: 0px;
+}
+.time {
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+}
+
+@media only screen and (max-width: 786px) {
+  .matches {
+    font-size: small;
+    margin: auto;
+  }
+  .nav-dates button {
+    width: 60px;
+    font: bold;
+    font-size: 8px;
+    cursor: pointer;
+    border: 20px bold black;
+  }
+  .matches-cards {
+    padding: 10px;
+    height: 130px;
+    width: 290px;
+  }
+  .teams {
+    font-size: small;
+    font-weight: bold;
+  }
+  .predict {
+    width: 60px;
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+    border: 1px bold;
+    border-radius: 5px;
+    left: 110px;
+  }
+  .time {
+    bottom: 20px;
+  }
+  .matches-cards .status {
+    position: relative;
+    bottom: 10px;
+    left: 80px;
+  }
+}

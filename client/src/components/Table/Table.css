@@ -1,0 +1,41 @@
+.table {
+  border: thin solid rgb(219, 215, 215);
+  text-align: center;
+  width: 500px;
+}
+.header {
+  border-bottom: solid #e7e7e7;
+  background-color: #f1f3f4;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding: 5px;
+  text-align: center;
+}
+.header :first-child {
+  margin-top: 3px;
+  margin-bottom: 7px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.header :nth-child(2) {
+  margin-bottom: 7px;
+  margin-top: 5px;
+  color: blue;
+}
+.table img {
+  width: 24px;
+  height: 24px;
+}
+.table-content {
+  margin: auto;
+}
+@media only screen and (max-width: 786px) {
+  .table {
+    width: 300px;
+    font-size: smaller;
+    text-align: left;
+  }
+  .table img {
+    width: 25px;
+    height: 24px;
+  }
+}
