@@ -33,5 +33,4 @@ To use Football MERN Library, follow these steps:
 - Adding comments
 - Checking past comments
 
-**Contact:**
-If you want to contact me you can reach me at **hazem.mk.10@gmail.com.**
+
